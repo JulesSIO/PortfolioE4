@@ -235,3 +235,111 @@ header span{
     padding: 1vw;
     box-shadow: 4px 4px 5px rgb(194, 194, 194);
 }
+
+.comp-items-box{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comp-item{
+    margin-bottom: 2vw;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 1vw;
+    box-shadow: 4px 4px 8px rgb(194, 194, 194);
+}
+
+.comp-item img{
+    width: 25%;
+}
+
+.progress-bar{
+    border: solid 1px black;
+    border-radius: 1vw;
+    max-height: 1.5vw;
+    min-height: 1vw;
+    display:flex;
+    align-items: center;
+}
+
+.progress-bar p{
+    margin-left: 50%;
+}
+
+/* --- Taches réalisées --- */
+
+.tasks-box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tasks-box-title{
+    margin-top: 1vw;
+    font-size: 3vw;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 1vw;
+    padding: 0.5vw;
+    box-shadow: 4px 4px 5px rgb(194, 194, 194);       
+}
+
+.tasks-items-container{
+    background: green;
+    width: 100%;
+    margin-top: 1vw;
+    display:flex;
+    justify-content: space-around;
+}
+
+.tasks-item-box{
+    background-color:purple;
+    max-width: 25%;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tasks-item-box img{
+    width: 25%;
+    margin-top: 0.5vw;
+}
+
+/* --- Certifications --- */
+
+.certi-box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.certi-box-title{
+    margin-top: 1vw;
+    font-size: 3vw;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 1vw;
+    padding: 0.4vw;
+    box-shadow: 4px 4px 5px rgb(194, 194, 194);
+}
+
+/* --- Footer --- */
+
+footer{
+    height: 3vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+    box-shadow: 4px 4px 10px rgb(194, 194, 194);
+    margin-top: 2vw;
+}
+
+footer span{
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
