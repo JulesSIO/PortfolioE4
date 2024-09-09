@@ -230,9 +230,9 @@ header span{
 .comp-title{
     font-size: 5vw;
     background-color: white;
+    padding: 1vw;
     border: 1px solid transparent;
     border-radius: 1vw;
-    padding: 1vw;
     box-shadow: 4px 4px 5px rgb(194, 194, 194);
 }
 
@@ -244,6 +244,7 @@ header span{
 }
 
 .comp-item{
+    width: 50%;
     margin-bottom: 2vw;
     background-color: white;
     border: 1px solid transparent;
@@ -253,6 +254,7 @@ header span{
 
 .comp-item img{
     width: 25%;
+    margin:1%;
 }
 
 .progress-bar{
@@ -262,6 +264,108 @@ header span{
     min-height: 1vw;
     display:flex;
     align-items: center;
+}
+
+#windows{
+    background-color:rgb(11, 162, 11);
+    width: 90%;
+    border-radius: 1vw;
+    max-height: 1.5vw;
+    min-height: 1vw;
+    display:flex;
+    align-items: center;
+}
+
+#windows p{
+    margin: 0 auto;
+    color: white;
+}
+
+#linux{
+    background-color:rgb(11, 162, 11);
+    width: 70%;
+    border-radius: 1vw;
+    max-height: 1.5vw;
+    min-height: 1vw;
+    display:flex;
+    align-items: center;
+}
+
+#linux p{
+    color:white;
+    margin: 0 auto;
+}
+
+#windowsserver{
+    background-color:rgb(11, 162, 11);
+    width: 70%;
+    border-radius: 1vw;
+    max-height: 1.5vw;
+    min-height: 1vw;
+    display:flex;
+    align-items: center;
+}
+
+#windowsserver p{
+    margin: 0 auto;
+    color: white;
+}
+
+#AD{
+    background-color:rgb(11, 162, 11);
+    width: 90%;
+    border-radius: 1vw;
+    max-height: 1.5vw;
+    min-height: 1vw;
+    display:flex;
+    align-items: center;
+}
+
+#AD p{
+    margin: 0 auto;
+    color: white;
+}
+
+#cisco{
+    background-color:rgb(11, 162, 11);
+    width: 70%;
+    border-radius: 1vw;
+    max-height: 1.5vw;
+    min-height: 1vw;
+    display:flex;
+    align-items: center;
+}
+
+#cisco{
+    color: white;
+}
+
+#htmlcss{
+    background-color:rgb(11, 162, 11);
+    width: 90%;
+    border-radius: 1vw;
+    max-height: 1.5vw;
+    min-height: 1vw;
+    display:flex;
+    align-items: center;
+}
+
+#htmlcss p{
+    color: white;
+}
+
+#js{
+    background-color:rgb(11, 162, 11);
+    width: 90%;
+    border-radius: 1vw;
+    max-height: 1.5vw;
+    min-height: 1vw;
+    display:flex;
+    align-items: center;
+}
+
+#js{
+    color: white;
 }
 
 .progress-bar p{
@@ -278,6 +382,7 @@ header span{
 
 .tasks-box-title{
     margin-top: 1vw;
+    margin-bottom: 1.5vw;
     font-size: 3vw;
     background-color: white;
     border: 1px solid transparent;
@@ -287,7 +392,6 @@ header span{
 }
 
 .tasks-items-container{
-    background: green;
     width: 100%;
     margin-top: 1vw;
     display:flex;
@@ -295,16 +399,32 @@ header span{
 }
 
 .tasks-item-box{
-    background-color:purple;
+    border: 1px solid transparent;
+    border-radius: 1vw;
+    box-shadow: 4px 4px 15px rgb(194, 194, 194);
     max-width: 25%;
+    margin-bottom: 2%;
+    background-color: white;
     display:flex;
     align-items: center;
     flex-direction: column;
 }
 
+.tasks-item-box .sep{
+    margin-bottom: 10%;
+}
+
 .tasks-item-box img{
-    width: 25%;
-    margin-top: 0.5vw;
+    width: 30%;
+    margin-top: 1vw;
+}
+
+.tasks-item-comp{
+
+}
+
+.tasks-item-desc{
+
 }
 
 /* --- Certifications --- */
