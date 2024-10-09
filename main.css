@@ -30,6 +30,34 @@ header span{
     margin-bottom: 1vw;
 }
 
+/* NavBar */
+
+.navbar{
+    display:flex;
+    background-color:white;
+    height:3vw;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 4px 8px rgb(129, 128, 128);
+    position: sticky;
+    top:0;
+}
+
+.navbar-menu a {
+    margin-right: 5vw;
+    text-decoration: none;
+    color: black;
+    padding: 1vw;
+}
+
+.navbar-menu a:hover{
+    color: orange;
+    border: solid 1px orange;
+}
+
+/* .navbar-menu a::before{
+    content: "o  ";
+} */
 /* --- Intro --- */
 
 .intro-box{
