@@ -52,7 +52,7 @@ header span{
 
 .navbar-menu a:hover{
     color: orange;
-    border: solid 1px orange;
+    font-size : 1vw;
 }
 
 /* .navbar-menu a::before{
@@ -417,6 +417,16 @@ header span{
     border-radius: 1vw;
     padding: 0.5vw;
     box-shadow: 4px 4px 5px rgb(194, 194, 194);       
+}
+
+.tasks-title{
+    margin-top: 1vw;
+    margin-bottom: 1.5vw;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 1vw;
+    padding: 0.5vw;
+    box-shadow: 4px 4px 5px rgb(194, 194, 194);
 }
 
 .tasks-items-container{
