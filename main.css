@@ -52,7 +52,6 @@ header span{
 
 .navbar-menu a:hover{
     color: orange;
-    font-size : 1vw;
 }
 
 /* .navbar-menu a::before{
@@ -471,6 +470,7 @@ header span{
     display:flex;
     flex-direction: column;
     align-items: center;
+    
     /* background-color: purples; */
 }
 
@@ -484,6 +484,42 @@ header span{
     box-shadow: 4px 4px 5px rgb(194, 194, 194);
 }
 
+.certi-flex{
+    /* background-color: purple; */
+}
+
+.certi-box-container{
+    background-color: green;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 1vw;
+    padding: 0.4vw;
+    margin: 0 auto;
+    box-shadow: 4px 4px 5px rgb(194, 194, 194);
+    margin-top: 2vw;
+    max-width: 60%;
+}
+
+.certi-title-container{
+}
+
+.certi-container{
+    font-size: x-small;
+}
+
+.certi-file{
+    text-align: center;
+}
+
+.certi-file a{
+    text-decoration: none;
+    color: black;
+}
+
+.certi-file a:hover{
+    color: orange;
+    border-bottom: 1px solid orange;
+}
 /* --- Footer --- */
 
 footer{
@@ -495,7 +531,8 @@ footer{
     border-top-left-radius: 1vw;
     border-top-right-radius: 1vw;
     box-shadow: 4px 4px 10px rgb(194, 194, 194);
-    margin-top: 2vw;
+    margin-top: 3vw;
+    height: 100%;
 }
 
 footer span{
