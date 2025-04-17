@@ -448,7 +448,7 @@ header span{
 }
 
 .tasks-item-box .sep{
-    margin-bottom: 10%;
+    margin-bottom: 1vw;
 }
 
 .tasks-item-box img{
@@ -478,10 +478,19 @@ header span{
 }
 
 .tasks-item-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1vw;
 }
+
 
 .tasks-item-desc p{
     text-decoration: underline;
+}
+
+.tasks-item-desc span{
+    max-width: 70%;
 }
 
 /* --- Certifications --- */
