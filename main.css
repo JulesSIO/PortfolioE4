@@ -435,6 +435,16 @@ header span{
     justify-content: space-around;
 }
 
+.tasks-item-box a{
+    text-decoration: none;
+    color: black;
+}
+
+.tasks-item-box a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+
 .tasks-item-box{
     border: 1px solid transparent;
     border-radius: 1vw;
