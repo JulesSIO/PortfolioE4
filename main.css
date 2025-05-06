@@ -503,6 +503,58 @@ header span{
     max-width: 70%;
 }
 
+/* --- Veille --- */
+
+.veille-title{
+    margin-top: 1vw;
+    font-size: 2vw;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 1vw;
+    padding: 0.4vw;
+    box-shadow: 4px 4px 5px rgb(194, 194, 194);
+}
+
+.veille-box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.veille-comp{
+    margin-top: 1vw;
+    margin-bottom: 1.5vw;
+    padding: 0.5vw;
+    min-width: 50%;
+}
+
+.veille-art{
+    margin-top: 1vw;
+    margin-bottom: 1.5vw;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 1vw;
+    padding: 0.5vw;
+    box-shadow: 4px 4px 5px rgb(194, 194, 194);
+    display: flex;
+    flex-direction: column;
+}
+
+.veille-art img{
+    width: 20%;
+    margin-left: 40%;
+}
+
+.veille-art span{
+    margin-top: 1vw;
+    margin-left: 25%;
+}
+
+.veille-art img:hover{
+    border: 2px solid orange;
+    border-radius: 1vw;
+}
+
 /* --- Certifications --- */
 
 .certi-box{
